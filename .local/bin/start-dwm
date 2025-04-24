@@ -1,0 +1,33 @@
+#!/usr/local/bin/bash
+
+##### Setxkbmap #####
+setxkbmap -layout us,ara -variant ,digits -option grp:alt_space_toggle caps:swapescape &
+
+##### Dunst #####
+# dunst &
+
+##### Sxhkd #####
+sxhkd &
+
+##### Udiskie #####
+# udiskie &
+
+##### Polkit agent  ######
+# /usr/libexec/polkit-gnome-authentication-agent-1 &
+
+##### Xrandr #####
+# xrandr --output HDMI-1 --mode 1920x1080 &
+xrdb ~/.config/.Xresources &
+
+##### Dwm Blocks #####
+# dwmblocks &
+slstatus &
+
+
+###### Picom ######
+# picom --experimental-backends &
+picom &
+
+###### Feh Wallpaper ######
+$HOME/.fehbg & 
+

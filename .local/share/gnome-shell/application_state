@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.Nautilus.desktop" score="3" last-seen="1745404641"/>
+    <application id="org.gnome.Extensions.desktop" score="9" last-seen="1745404820"/>
+    <application id="org.gnome.tweaks.desktop" score="3" last-seen="1745405374"/>
+    <application id="org.gnome.Glade.desktop" score="14" last-seen="1745404596"/>
+    <application id="org.gnome.Settings.desktop" score="53" last-seen="1745410993"/>
+    <application id="org.gtk.WidgetFactory4.desktop" score="3" last-seen="1745404679"/>
+    <application id="chromium-browser.desktop" score="88" last-seen="1745411855"/>
+    <application id="org.gtk.Demo4.desktop" score="0" last-seen="1745404869"/>
+    <application id="org.gnome.PowerStats.desktop" score="0" last-seen="1745404999"/>
+    <application id="org.gtk.gtk4.NodeEditor.desktop" score="1" last-seen="1745404899"/>
+    <application id="ca.desrt.dconf-editor.desktop" score="0" last-seen="1745404862"/>
+  </context>
+</application-state>

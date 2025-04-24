@@ -1,0 +1,25 @@
+[2025.04.23 15:01:05] Launched version: 5013001, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
+[2025.04.23 15:01:05] Executable dir: /usr/local/bin/, name: telegram-desktop
+[2025.04.23 15:01:05] Initial working dir: /home/eih/
+[2025.04.23 15:01:05] Working dir: /home/eih/.local/share/TelegramDesktop/
+[2025.04.23 15:01:05] Command line: telegram-desktop
+[2025.04.23 15:01:05] Executable path before check: /usr/local/bin/telegram-desktop
+[2025.04.23 15:01:05] Logs started
+[2025.04.23 15:01:05] App ID: org.telegram.desktop
+[2025.04.23 15:01:05] Connecting local socket to /tmp/9865c914c94587a8c19ea1a1a2067354-TelegramDesktop...
+[2025.04.23 15:01:05] This is the only instance of Telegram, starting server and app...
+[2025.04.23 15:01:05] Moved logging from '/home/eih/.local/share/TelegramDesktop/log_start0.txt' to '/home/eih/.local/share/TelegramDesktop/log.txt'!
+[2025.04.23 15:01:05] Global devicePixelRatio: 1
+[2025.04.23 15:01:05] Primary screen DPI: 96, Base: 96.
+[2025.04.23 15:01:05] Computed screen scale: 100
+[2025.04.23 15:01:05] DevicePixelRatio: 1
+[2025.04.23 15:01:05] ScreenScale: 100
+[2025.04.23 15:01:05] Icon theme: hicolor
+[2025.04.23 15:01:05] Fallback icon theme: hicolor
+[2025.04.23 15:01:05] Media Info: Type Playback, default: OSS Default, list: { "OSS Default" <OSS Default>, "NVIDIA GM204 (HDMI/DP 8ch)" <NVIDIA GM204 (HDMI/DP 8ch)>, "NVIDIA GM204 (HDMI/DP 8ch) #2" <NVIDIA GM204 (HDMI/DP 8ch) #2>, "NVIDIA GM204 (HDMI/DP 8ch) #3" <NVIDIA GM204 (HDMI/DP 8ch) #3>, "NVIDIA GM204 (HDMI/DP 8ch) #4" <NVIDIA GM204 (HDMI/DP 8ch) #4>, "Creative CA0132 (Rear Analog)" <Creative CA0132 (Rear Analog)>, "Creative CA0132 (Rear Digital)" <Creative CA0132 (Rear Digital)>, "Creative CA0132 (Analog)" <Creative CA0132 (Analog)> }, full list refresh: true
+[2025.04.23 15:01:05] Media Info: Type Capture, default: OSS Default, list: { "OSS Default" <OSS Default>, "Creative CA0132 (Rear Analog)" <Creative CA0132 (Rear Analog)>, "Creative CA0132 (Analog)" <Creative CA0132 (Analog)> }, full list refresh: true
+[2025.04.23 15:01:05] Media Error: Can't sync default device for type Camera, default: , list: {  }
+[2025.04.23 15:01:06] OpenAL Logging Level: (not set)
+[2025.04.23 15:01:07] System tray available: [FALSE]
+[2025.04.23 15:01:07] OpenGL: Could not create widget in a window.
+[2025.04.23 15:01:07] OpenGL: [FALSE] (Window)
