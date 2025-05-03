@@ -1,4 +1,4 @@
-#!/usr/local/bin/bash
+#!/bin/sh
 
 ##### Setxkbmap #####
 setxkbmap -layout us,ara -variant ,digits -option grp:alt_space_toggle caps:swapescape &
