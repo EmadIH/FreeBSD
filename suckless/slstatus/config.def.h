@@ -65,14 +65,14 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function 		format          		argument */
-	/*{ run_command, 		"%s | ", 		"$HOME/.local/bin/layout" },*/
+	{ run_command, 		"%s | ", 			"$HOME/.local/bin/layout" },
 	/*{ run_command,		"%s | ",		"$HOME/.local/bin/vol" },*/
 	/*{ run_command,		"%s | ",		"$HOME/.local/bin/xbps_up" },*/
 	/*{ run_command,		"%s | ",		"$HOME/.local/bin/weather" },*/
 	/*{ run_command,		"%s  ",			"$HOME/.local/bin/datetime" },*/
-	{ vol_perc, 	"[  %3s%%] ", NULL	      },
-	{ cpu_perc, 	"[  %3s%%] ", NULL	      },
-	{ ram_perc, 	"[  %3s%%] ", NULL	      },
+	{ vol_perc, 	"[  %3s%% ] ", NULL	      },
+	{ cpu_perc, 	"[ :%2s%% ] ", NULL	      },
+	{ ram_perc, 	"[  %2s%% ] ", NULL	      },
 	{ datetime,	"[%s", "   %a %b %d  %I:%M %p ] " },
 	
 };

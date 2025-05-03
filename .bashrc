@@ -1,5 +1,9 @@
 # .bashrc
 
+##### Bash Completion #####
+[[ $PS1 && -f /usr/local/share/bash-completion/bash_completion.sh ]] && \
+        source /usr/local/share/bash-completion/bash_completion.sh
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 

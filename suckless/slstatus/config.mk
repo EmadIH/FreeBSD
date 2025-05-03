@@ -16,8 +16,7 @@ CFLAGS   = -std=c99 -pedantic -Wall -Wextra -Wno-unused-parameter -Os
 LDFLAGS  = -L$(X11LIB) -s
 # OpenBSD: add -lsndio
 # FreeBSD: add -lkvm -lsndio
-LDLIBS   = -lX11
-LIBS = -L/usr/local/lib -lkvm -lsndio
+LDLIBS   = -lX11 -lkvm -lsndio
 
 # compiler and linker
 CC = cc
