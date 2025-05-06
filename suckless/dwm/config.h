@@ -27,9 +27,9 @@ static const Rule rules[] = {
 	 *	WM_NAME(STRING) = title
 	 */
 	/* class      		instance    title       tags mask     isfloating   monitor */
-	{ "Chromium",  		 NULL,       NULL,       1 << 1,       		  0,           -1 },
-	{ "Code - OSS",  	 NULL,       NULL,       1 << 2,              0,           -1 },
-	{ "Virt-manager",  	 NULL,       NULL,       1 << 3,       		  0,           -1 },
+	{ "firefox", 	 	 NULL,       NULL,       1 << 1,       	0,           -1 },
+	{ "Code - OSS",  	 NULL,       NULL,       1 << 2,        0,           -1 },
+	{ "Virt-manager",  	 NULL,       NULL,       1 << 3,        0,           -1 },
 };
 
 /* layout(s) */
@@ -54,7 +54,7 @@ static const Layout layouts[] = {
 	{ MODKEY|ControlMask|ShiftMask, KEY,      toggletag,      {.ui = 1 << TAG} },
 
 /* helper for spawning shell commands in the pre dwm-5.0 fashion */
-#define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
+#define SHCMD(cmd) { .v = (const char*[]){ "/usr/local/bin/sh", "-c", cmd, NULL } }
 
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */

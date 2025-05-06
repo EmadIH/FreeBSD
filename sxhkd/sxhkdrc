@@ -1,0 +1,33 @@
+super + w
+	firefox
+
+super + g
+	geany
+
+super + s
+	~/.local/bin/sysstate
+
+super + c
+	code-oss
+
+super + m 
+	~/.local/bin/mount-disk
+
+super + u
+	~/.local/bin/umount-disk
+
+super + b
+	~/.local/bin/blue-menu
+
+# خفض الصوت
+super + F10
+    sndioctl output.level=-0.05
+
+# رفع الصوت
+super + F11
+    sndioctl output.level=+0.05
+
+# كتم الصوت
+super + F12
+    sndioctl output.level=0.0
+
