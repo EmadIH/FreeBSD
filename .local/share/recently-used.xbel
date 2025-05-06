@@ -53,4 +53,50 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="file:///home/eih/Downloads/pexels-katja-79053-592077.jpg" added="2025-05-05T12:46:32.166250Z" modified="2025-05-05T12:46:32.166254Z" visited="2025-05-05T12:46:32.166251Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-05T12:46:32.166252Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/FreeBSD/backgrounds/nietjuhart.jpg" added="2025-05-05T12:54:51.880970Z" modified="2025-05-05T12:54:52.206965Z" visited="2025-05-05T12:54:51.880972Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2025-05-05T12:54:52.206962Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/FreeBSD/suckless/st/x.c" added="2025-05-06T07:27:11.478799Z" modified="2025-05-06T07:27:56.355220Z" visited="2025-05-06T07:27:11.478800Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-05-06T07:27:56.355219Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/FreeBSD/suckless/st/x.c.rej" added="2025-05-06T07:27:11.484908Z" modified="2025-05-06T07:27:11.517736Z" visited="2025-05-06T07:27:11.484909Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-reject"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-05-06T07:27:11.517735Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

@@ -1,5 +1,8 @@
 #!/bin/sh
 
+##### Sound on FreeBSD #####
+sndiod  &
+
 ##### Setxkbmap #####
 setxkbmap -layout us,ara -variant ,digits -option grp:alt_space_toggle caps:swapescape &
 

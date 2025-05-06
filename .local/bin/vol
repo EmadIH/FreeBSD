@@ -1,14 +1,19 @@
 #!/bin/sh
 
-volume=$(pulsemixer --get-volume | awk '{print $1}')
-mute=$(pulsemixer --get-mute)
+vol=$(sndioctl output.level | awk -F '=' '{printf "%d\n", $2 * 100}')
 
-if [ "$mute" -eq 1 ]; then
-    echo "🔇"
-elif [ "$volume" -lt 30 ]; then
-    echo "🔈 $volume%"
-elif [ "$volume" -lt 70 ]; then
-    echo "🔉 $volume%"
-else
-    echo "🔊 $volume%"
+if [ -z "$vol" ]; then
+    echo "🔇 %"
+    exit
 fi
+
+if [ "$vol" -eq 0 ]; then
+    icon="🔇"
+elif [ "$vol" -lt 50 ]; then
+    icon="🔉"
+else
+    icon="🔊"
+fi
+
+echo "$icon $vol%"
+
