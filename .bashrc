@@ -2,7 +2,7 @@
 
 ##### Bash Completion #####
 [[ $PS1 && -f /usr/local/share/bash-completion/bash_completion.sh ]] && \
-        source /usr/local/share/bash-completion/bash_completion.sh
+	. /usr/local/share/bash-completion/bash_completion.sh
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -21,6 +21,7 @@ alias i='doas pkg install'
 alias q='doas pkg search'
 alias r='doas pkg remove'
 alias rt='doas pkg autoremove'
+alias ug='doas pkg update && doas pkg upgrade'
 
 ##### Vim Shortcut ######
 alias dvi='doas vim'
