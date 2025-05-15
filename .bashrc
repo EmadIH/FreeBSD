@@ -2,7 +2,7 @@
 
 ##### Bash Completion #####
 [[ $PS1 && -f /usr/local/share/bash-completion/bash_completion.sh ]] && \
-	. /usr/local/share/bash-completion/bash_completion.sh
+	source /usr/local/share/bash-completion/bash_completion.sh
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -26,3 +26,7 @@ alias ug='doas pkg update && doas pkg upgrade'
 ##### Vim Shortcut ######
 alias dvi='doas vim'
 alias vi='vim'
+
+#### Ptch and Make Suckless tools ####
+alias pach='patch -p1 <'
+alias make='doas make clean install'
